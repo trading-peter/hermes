@@ -1,3 +1,7 @@
+## 2.1.2 (November 19, 2021)
+  - Merge pull request #2 from erajayatech/rifki
+  - change package name
+
 ## 2.1.1 (November 19, 2021)
 
 
