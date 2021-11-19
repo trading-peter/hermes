@@ -1,3 +1,60 @@
+## v2.1.1 (November 19, 2021)
+  - NEW-169 Add VERSION and CHANGELOG.md files, Bump version to v1.0.0.
+  - Merge pull request #1 from erajayatech/hafizarr
+  - Add new var custom data and model
+  - add new var custom and model
+  - Merge pull request #62 from matcornic/mack-master
+  - feat: improve invite code feature - Better compatibility with Outlook - Add unit tests - Add docs - Add example
+  - Added InviteCode action.
+  - Merge pull request #61 from matcornic/feat/improve-css-compatibility
+  - feat: width button in default theme is adapting to text size
+  - chore: fix link in doc
+  - feat: update go version in CI
+  - feat: add css inlining by default Should improve compatibility on many email clients.
+  - fix: some outlook compatibility problems (for buttons mainly)
+  - feat: replace logo in example with one with right size.
+  - feat: update copyright year in examples.
+  - Add gopher with 50px of height
+  - Merge pull request #56 from viettuan1807/fix-css-style-button
+  - fix css style '.button.color' does not work in Gmail web view
+  - feat: add possibility to send message in examples with go-mail
+  - chore: add .idea to gitignore
+  - chore: Update Copyright date
+  - chore: instruction to clean cache before using examples
+  - fix: don't print useless blank CSS properties
+  - Merge pull request #40 from fossabot/master
+  - Merge pull request #51 from crazy-max/master
+  - Fix blackfriday module
+  - Merge pull request #45 from Atrox/go-modules-v2
+  - update examples to use /v2 suffix
+  - update readme with /v2 suffix
+  - update go.mod to use /v2 suffix
+  - Add details about go modules in README
+  - Merge branch 'Atrox-master'
+  - feat: disable golangci-lint for now, until gomodules are used anywhere
+  - add golangci config and remove fast option
+  - use golangci instead of gometalinter
+  - remove dep
+  - use blackfriday v2
+  - add support for go modules
+  - Merge pull request #43 from akamensky/master
+  - Add option for button text color inlining
+  - Add license scan report and status
+  - Merge pull request #32 from ernsheong/alignment
+  - Fix English spelling of "Alignment"
+  - Feat/dep update (#30)
+  - Feat/dep update (#28)
+  - Removing code sponsorship as codesponsor is shutting down.
+  - Remove golang master branch from CI
+  - Add go 1.9 in travis
+  - Update Code Sponsor link position (#20)
+  - Trying codesponsor and see what is going on.
+  - Feat/go dep (#19)
+  - Fix spelling mistake (#18)
+  - Feat/go dep (#16)
+  - Update coma position in plain text template (#15)
+  - fixed little mistake in custom theme example
+
 ## 1.0.0 (November 19, 2021)
   - Merge pull request #1 from erajayatech/hafizarr
   - Add new var custom data and model
