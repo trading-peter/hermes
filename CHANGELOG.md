@@ -1,3 +1,6 @@
+## 2.1.1 (November 19, 2021)
+
+
 ## v2.1.1 (November 19, 2021)
   - NEW-169 Add VERSION and CHANGELOG.md files, Bump version to v1.0.0.
   - Merge pull request #1 from erajayatech/hafizarr
