@@ -3,13 +3,14 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/go-gomail/gomail"
-	"github.com/matcornic/hermes/v2"
-	"golang.org/x/crypto/ssh/terminal"
 	"io/ioutil"
 	"net/mail"
 	"os"
 	"strconv"
+
+	"github.com/erajayatech/hermes/v2"
+	"github.com/go-gomail/gomail"
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 type example interface {
@@ -23,7 +24,7 @@ func main() {
 		Product: hermes.Product{
 			Name: "Hermes",
 			Link: "https://example-hermes.com/",
-			Logo: "https://github.com/matcornic/hermes/blob/master/examples/gopher.png?raw=true",
+			Logo: "https://github.com/erajayatech/hermes/blob/master/examples/gopher.png?raw=true",
 		},
 	}
 	sendEmails := os.Getenv("HERMES_SEND_EMAILS") == "true"
