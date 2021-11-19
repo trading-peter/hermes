@@ -1,3 +1,8 @@
+## 2.1.3 (November 19, 2021)
+  - Merge branch 'master' of github.com:erajayatech/hermes
+  - Merge pull request #3 from erajayatech/rifki
+  - update go.mod
+
 ## 2.1.2 (November 19, 2021)
   - Merge pull request #2 from erajayatech/rifki
   - change package name
