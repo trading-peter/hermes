@@ -1,4 +1,4 @@
-module github.com/erajayatech/hermes/v2
+module github.com/matcornic/hermes/v2
 
 require (
 	github.com/Masterminds/semver v1.4.2 // indirect
@@ -6,6 +6,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.5.0 // indirect
 	github.com/aokoli/goutils v1.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/erajayatech/hermes/v2 v2.1.3
 	github.com/go-gomail/gomail v0.0.0-20160411212932-81ebce5c23df
 	github.com/google/uuid v1.0.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
@@ -27,5 +28,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/yaml.v2 v2.2.1 // indirect
 )
+
+replace gopkg.in/russross/blackfriday.v2 v2.0.1 => github.com/russross/blackfriday/v2 v2.0.1
 
 go 1.13
