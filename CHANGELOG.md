@@ -1,3 +1,9 @@
+## 2.1.6 (December 08, 2021)
+  - Merge branch 'master' of github.com:erajayatech/hermes
+  - Merge pull request #5 from erajayatech/hafizarr
+  - EMOS-464 #time 5m add sitename and merchantname hermes
+  - EMOS-464 #time 5m add sitename and merchantname hermes
+
 ## 2.1.5 (November 22, 2021)
   - Update go mod
 
