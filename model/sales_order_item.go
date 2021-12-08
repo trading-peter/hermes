@@ -26,6 +26,7 @@ type SalesOrderItem struct {
 	OriginalPrice                  int64                `json:"original_price"`
 	OriginalPriceFormated          string               `json:"original_price_formated"`
 	SiteCode                       string               `json:"site_code"`
+	SiteName                       string               `json:"site_name"`
 	SiteCodeStock                  string               `json:"site_code_stock"`
 	CreatedAt                      time.Time            `json:"created_at"`
 	UpdatedAt                      time.Time            `json:"updated_at"`
