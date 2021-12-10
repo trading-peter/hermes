@@ -36,8 +36,10 @@ type SalesOrder struct {
 	DiscountCrmAmount              int64                 `json:"discount_crm_amount"`
 	DiscountCrmAmountFormated      string                `json:"discount_crm_amount_formated"`
 	DiscountPointAmount            int64                 `json:"discount_point_amount" gorm:"column:discount_point_amount"`
+	DiscountPointAmountFormated    string                `json:"discount_point_amount_formated"`
 	DiscountPointRedeemtionid      string                `json:"discount_point_redeemtionid"`
 	DiscountInternalAmount         int64                 `json:"discount_internal_amount"`
+	DiscountInternalAmountFormated string                `json:"discount_internal_amount_formated"`
 	DiscountAmount                 int64                 `json:"discount_amount"`
 	DiscountAmountFormated         string                `json:"discount_amount_formated"`
 	O2oBuCode                      string                `json:"o2o_bu_code"`
