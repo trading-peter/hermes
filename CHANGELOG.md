@@ -1,3 +1,8 @@
+## 2.1.7 (December 10, 2021)
+  - Merge branch 'master' of github.com:erajayatech/hermes
+  - Merge pull request #6 from erajayatech/hafizarr
+  - tambah DiscountPointAmountFormated
+
 ## 2.1.6 (December 08, 2021)
   - Merge branch 'master' of github.com:erajayatech/hermes
   - Merge pull request #5 from erajayatech/hafizarr
