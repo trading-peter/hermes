@@ -5,10 +5,10 @@ import (
 	"html/template"
 
 	"github.com/Masterminds/sprig"
-	"github.com/erajayatech/hermes/v2/model"
 	"github.com/imdario/mergo"
 	"github.com/jaytaylor/html2text"
 	"github.com/russross/blackfriday/v2"
+	"github.com/trading-peter/hermes/v2/model"
 	"github.com/vanng822/go-premailer/premailer"
 )
 

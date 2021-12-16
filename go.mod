@@ -1,4 +1,4 @@
-module github.com/erajayatech/hermes/v2
+module github.com/trading-peter/hermes/v2
 
 require (
 	github.com/Masterminds/semver v1.4.2 // indirect

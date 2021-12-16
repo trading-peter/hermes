@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/erajayatech/hermes/v2"
 	"github.com/go-gomail/gomail"
+	"github.com/trading-peter/hermes/v2"
 	"golang.org/x/crypto/ssh/terminal"
 )
 
@@ -24,7 +24,7 @@ func main() {
 		Product: hermes.Product{
 			Name: "Hermes",
 			Link: "https://example-hermes.com/",
-			Logo: "https://github.com/erajayatech/hermes/blob/master/examples/gopher.png?raw=true",
+			Logo: "https://github.com/trading-peter/hermes/blob/master/examples/gopher.png?raw=true",
 		},
 	}
 	sendEmails := os.Getenv("HERMES_SEND_EMAILS") == "true"
