@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/erajayatech/hermes/v2"
+	"github.com/trading-peter/hermes/v2"
 )
 
 type maintenance struct {
