@@ -479,7 +479,7 @@ func (dt *Flat) HTMLTemplate() string {
                 <tr>
                   <td class="content-cell">
                     <p class="sub center">
-                      {{.Hermes.Product.Copyright}}
+                      {{.Hermes.Product.Copyright}}{{range .Hermes.Product.FooterLinks}} | <a href="{{.Key}}" target="_blank">{{.Value}}</a>{{end}}
                     </p>
                   </td>
                 </tr>
@@ -557,6 +557,6 @@ func (dt *Flat) PlainTextTemplate() string {
 {{ end }}
 <p>{{.Email.Body.Signature}},<br>{{.Hermes.Product.Name}} - {{.Hermes.Product.Link}}</p>
 
-<p>{{.Hermes.Product.Copyright}}</p>
+<p>{{.Hermes.Product.Copyright}}{{range .Hermes.Product.FooterLinks}} | <a href="{{.Key}}" target="_blank">{{.Value}}</a>{{end}}</p>
 `
 }
